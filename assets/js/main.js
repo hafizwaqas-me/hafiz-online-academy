@@ -1,4 +1,4 @@
-/* Hafiz Online Academy — mobile nav, EN/UR language toggle, mailto forms. */
+/* Hafiza Online Academy — mobile nav, EN/UR language toggle, mailto forms. */
 (function () {
   "use strict";
 
@@ -55,7 +55,7 @@
         if (!f.name || !f.value) { return; }
         lines.push(f.name + ": " + f.value);
       });
-      var subject = encodeURIComponent(subjectPrefix + " — Hafiz Online Academy");
+      var subject = encodeURIComponent(subjectPrefix + " — Hafiza Online Academy");
       var body = encodeURIComponent(lines.join("\n"));
       window.location.href = "mailto:" + to + "?subject=" + subject + "&body=" + body;
     });

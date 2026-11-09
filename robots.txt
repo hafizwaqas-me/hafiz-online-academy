@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://hafizwaqas-me.github.io/hafiz-online-academy/sitemap.xml
+Sitemap: https://hafizwaqas-me.github.io/hafiza-online-academy/sitemap.xml
